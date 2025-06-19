@@ -1,0 +1,71 @@
+/* Estilos para el header */
+.header {
+  background-color: #1a1a1a;
+  color: white;
+  padding: 15px 30px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.logo {
+  margin: 0;
+  font-size: 1.8rem;
+}
+
+.nav {
+  display: flex;
+  gap: 20px;
+  margin-top: 10px;
+  flex-wrap: wrap;
+  justify-content: center;
+}
+
+.nav a,
+.dropbtn {
+  color: white;
+  text-decoration: none;
+  padding: 8px 12px;
+  border-radius: 4px;
+  background: none;
+  cursor: pointer;
+  font-size: 1rem;
+  border: none;
+}
+
+.nav a:hover,
+.dropbtn:hover {
+  background-color: #333;
+}
+
+/* Dropdown */
+.dropdown {
+  position: relative;
+}
+
+.dropdown-content {
+  display: none;
+  position: absolute;
+  background-color: white;
+  min-width: 160px;
+  z-index: 1;
+  top: 35px;
+  left: 0;
+  border-radius: 4px;
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+}
+
+.dropdown-content a {
+  color: black;
+  padding: 10px 15px;
+  text-decoration: none;
+  display: block;
+}
+
+.dropdown-content a:hover {
+  background-color: #eee;
+}
+
+.dropdown:hover .dropdown-content {
+  display: block;
+}

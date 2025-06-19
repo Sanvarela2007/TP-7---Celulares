@@ -1,6 +1,6 @@
 import { useParams } from 'react-router-dom';
 import { celulares } from '../../data';
-import CelularCard from '../CardCelular';
+import CelularCard from '../CardCelular/CardCelular';
 const Productos = () => {
   const { idMarca } = useParams();
   const filtrados = idMarca ? celulares.filter(c => c.marcaId === parseInt(idMarca)) : celulares;

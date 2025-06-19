@@ -7,6 +7,7 @@ import Home from './Componentes/Home';
 import Productos from './Componentes/Productos';
 
 import Contacto from './Componentes/Contacto';
+import QuienesSomos from './Componentes/QuienesSomos'
 
 function App() {
   return (
@@ -14,7 +15,8 @@ function App() {
       <Routes>
         <Route path="/" element={<LayoutPrincipal />}>
           <Route index element={<Home />} />
-        
+          <Route path="quienes-somos" element={<QuienesSomos />} />
+
           <Route path="productos" element={<Productos />} />
          
           <Route path="contacto" element={<Contacto />} />

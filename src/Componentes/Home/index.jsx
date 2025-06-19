@@ -1,6 +1,6 @@
 import { useEffect, useState } from 'react';
-import CelularCard from '../CardCelular';
-import Carousel from '../Carousel';
+import CelularCard from '../CardCelular/CardCelular';
+import Carousel from '../Carousel/Carousel';
 import { celulares } from '../../data';
 import './Home.css';
 
@@ -14,9 +14,9 @@ const Home = () => {
 
   return (
     <main className="home-container">
-      <div className="carousel-container">
+     
         <Carousel />
-      </div>
+      
 
       <h2 className="home-title">
         Bienvenido a nuestra tienda
