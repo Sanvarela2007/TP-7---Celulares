@@ -1,0 +1,58 @@
+.detalle-container {
+    max-width: 480px;
+    margin: 40px auto;
+    padding: 0 20px;
+    text-align: center;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+  }
+  
+  .btn-volver {
+    background: #007bff;
+    color: white;
+    border: none;
+    padding: 8px 16px;
+    border-radius: 8px;
+    cursor: pointer;
+    margin-bottom: 20px;
+    font-size: 0.9rem;
+    transition: background-color 0.3s;
+  }
+  
+  .btn-volver:hover {
+    background: #0056b3;
+  }
+  
+  .detalle-card-wrapper {
+    background: white;
+    border-radius: 12px;
+    box-shadow: 0 6px 16px rgba(0, 0, 0, 0.12);
+    padding: 24px;
+  }
+  
+  .detalle-img {
+    width: 100%;
+    height: 260px;
+    object-fit: contain;
+    border-radius: 12px;
+    margin-bottom: 20px;
+  }
+  
+  .detalle-nombre {
+    font-size: 1.4rem;
+    margin: 16px 0 8px;
+    color: #222;
+  }
+  
+  .detalle-precio {
+    font-size: 1.2rem;
+    font-weight: bold;
+    color: #007bff;
+    margin-bottom: 16px;
+  }
+  
+  .detalle-descripcion {
+    font-size: 1rem;
+    line-height: 1.5;
+    color: #555;
+  }
+  

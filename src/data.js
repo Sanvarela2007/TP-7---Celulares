@@ -30,6 +30,19 @@ export const marcas = [
         'https://i5.walmartimages.com/asr/719fda14-ad34-4ba0-a824-4c042fc3d326.8abcf010243fcb9efe2534b0cc47bf2f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF'
       ]
     },
+    
+    {
+      id: 5,
+      nombre: 'Samsung Galaxy S24',
+      descripcion: 'Pantalla AMOLED 6.1", Snapdragon 8 Gen 2, cámara triple',
+      precio: 999,
+      marcaId: 2,
+      fotos: [
+        'https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8806094724868_1.jpg',
+        'https://f.fcdn.app/imgs/d64697/universobinario.com/ubinuy/fe41/original/catalogo/CEL1966-001_1/460x460/samsung-galaxy-s23-fe-8gb-256gb-blanco-001.jpg',
+        'https://i5.walmartimages.com/asr/719fda14-ad34-4ba0-a824-4c042fc3d326.8abcf010243fcb9efe2534b0cc47bf2f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF'
+      ]
+    },
     {
       id: 3,
       nombre: 'Xiaomi 13 Pro',

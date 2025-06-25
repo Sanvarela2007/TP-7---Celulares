@@ -1,0 +1,16 @@
+.productos-grid {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(250px, 1fr));
+    gap: 16px;
+    padding: 16px;
+    margin-top: 3%;
+  }
+  .grid-container {
+    display: flex;
+    flex-wrap: wrap;       /* Permite que las cards salten a la siguiente fila si no entran */
+    gap: 32px;             /* Espacio entre cards */
+    padding: 24px;         /* Espacio alrededor del contenedor */
+    justify-content: center; /* Centra las cards horizontalmente */
+  }
+  
+  

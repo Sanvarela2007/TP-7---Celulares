@@ -7,7 +7,7 @@ const CelularCard = ({ celular }) => (
     <div className="card-body">
       <h3 className="card-title">{celular.nombre}</h3>
       <p className="card-price">${celular.precio}</p>
-      <Link to={`/producto/${celular.id}`} className="card-button">
+      <Link to={`/productos/${celular.id}`} className="card-button">
         Ver más
       </Link>
     </div>
