@@ -56,3 +56,14 @@
 .card-button:hover {
   background-color: #0056b3;
 }
+.card-marca {
+  display: block;
+  font-size: 0.85rem;
+  color: #007bff;
+  text-decoration: none;
+  margin-bottom: 6px;
+}
+
+.card-marca:hover {
+  text-decoration: underline;
+}

@@ -11,8 +11,11 @@ const Header = () => (
         <ul>
           <li><Link to="/productos">Ver todos</Link></li>
           {marcas.map(m => (
-            <li key={marcas.id}><Link to={`/productos/${marcas.id}`}>{marcas.nombre}</Link></li>
-          ))}
+  <li key={m.id}>
+    <Link to={`/productos/marca/${m.id}`}>{m.nombre}</Link>
+  </li>
+))}
+
         </ul>
       </div>
       <Link to="/contacto">Contacto</Link>

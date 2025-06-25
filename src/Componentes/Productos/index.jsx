@@ -1,17 +1,20 @@
 import { useParams } from 'react-router-dom';
-import { celulares } from '../../data';
+import { celulares } from '../../data'; // Ajustá si hace falta
 import CelularCard from '../CardCelular/CardCelular';
 import './Productos.css';
 
 const Productos = () => {
   const { idMarca } = useParams();
 
-  // Si idMarca existe, filtrá, sino devolvé todo
-  const filtrados = idMarca ? celulares.filter(c => c.marcaId === parseInt(idMarca)) : celulares;
+  const filtrados = idMarca
+    ? celulares.filter(c => c.marcaId === parseInt(idMarca))
+    : celulares;
 
   return (
     <div className="grid-container">
-      {filtrados.map(c => <CelularCard key={c.id} celular={c} />)}
+      {filtrados.map(c => (
+        <CelularCard key={c.id} celular={c} />
+      ))}
     </div>
   );
 };
