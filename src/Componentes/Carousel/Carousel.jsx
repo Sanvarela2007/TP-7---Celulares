@@ -7,6 +7,7 @@ const imagenes = [
   'https://i02.appmifile.com/492_operatorx_operatorx_opx/02/03/2025/5667c36c15d47b90d0faa7ac23c9f276.png?thumb=1&w=400&q=85'
 ];
 
+//(Lo buscamos en Internet como hacer este carousel que cambia de imagen cada 3 segundos)
 const Carousel = () => {
   const [index, setIndex] = useState(0);
 

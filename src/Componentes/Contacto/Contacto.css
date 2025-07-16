@@ -37,6 +37,7 @@
     background-color: #f9f9f9;
     margin-bottom: 20px;
     transition: border-color 0.3s;
+   color: #000000;
   }
   
   .contact-form input:focus,
@@ -60,4 +61,13 @@
   .contact-form button:hover {
     background-color: #0056b3;
   }
-  
+  .contact-form {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.contact-form > div {
+  width: 200%;
+  max-width: 550px;
+}

@@ -1,5 +1,5 @@
 import { Link } from 'react-router-dom';
-import { marcas } from '../../data'; // Ajustá el path si hace falta
+import { marcas } from '../../data';
 import './CardCelular.css';
 
 const CelularCard = ({ celular }) => {

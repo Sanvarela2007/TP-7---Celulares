@@ -1,5 +1,5 @@
 import { useParams } from 'react-router-dom';
-import { celulares } from '../../data'; // Ajustá si hace falta
+import { celulares } from '../../data';
 import CelularCard from '../CardCelular/CardCelular';
 import './Productos.css';
 

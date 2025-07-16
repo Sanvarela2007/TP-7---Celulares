@@ -1,0 +1,39 @@
+.quienes-container {
+  padding: 32px 16px;
+  text-align: center;
+}
+
+.quienes-container h1 {
+  font-size: 2.2rem;
+  margin-bottom: 16px;
+  color: #535353;
+}
+
+.quienes-container p {
+  max-width: 600px;
+  margin: 0 auto 32px auto;
+  color: #808080;
+  font-size: 1.08rem;
+}
+
+.quienes-container h2 {
+  margin-top: 40px;
+  font-size: 1.4rem;
+  color: #636363;
+}
+
+.oficinas-lista {
+  display: flex;
+  justify-content: center;
+  gap: 24px;
+  flex-wrap: wrap;
+  margin-top: 24px;
+}
+
+.oficinas-lista img {
+  border-radius: 10px;
+  width: 340px;
+  height: 220px;
+  object-fit: cover;
+  background: #fff;
+}

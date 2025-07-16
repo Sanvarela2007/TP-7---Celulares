@@ -38,7 +38,7 @@ export const marcas = [
       precio: 999,
       marcaId: 2,
       fotos: [
-        'https://storage.googleapis.com/catalog-pictures-carrefour-es/catalog/pictures/hd_510x_/8806094724868_1.jpg',
+        'https://fixechelectronica.com.ar/wp-content/uploads/2024/05/S24-dorado.png',
         'https://f.fcdn.app/imgs/d64697/universobinario.com/ubinuy/fe41/original/catalogo/CEL1966-001_1/460x460/samsung-galaxy-s23-fe-8gb-256gb-blanco-001.jpg',
         'https://i5.walmartimages.com/asr/719fda14-ad34-4ba0-a824-4c042fc3d326.8abcf010243fcb9efe2534b0cc47bf2f.jpeg?odnHeight=612&odnWidth=612&odnBg=FFFFFF'
       ]
@@ -57,6 +57,18 @@ export const marcas = [
     },
     {
       id: 4,
+      nombre: 'Motorola Moto G23',
+      descripcion: 'Celular Motorola Moto G23 128 Gb',
+      precio: 999,
+      marcaId: 4,
+      fotos: [
+        'https://tiendadiggit.com.ar/web/image/product.product/3755/image_1024/%5B91PAWY0014AR%5D%20Celular%20Motorola%20Moto%C2%A0G23%20128%20Gb%20%28Azul%20Cristal%29?unique=18155c5',
+        'https://tiendadiggit.com.ar/web/image/product.image/6412/image_1024/Celular%20Motorola%20Moto%C2%A0G23%20128GB?unique=f95febe',
+        'https://tiendadiggit.com.ar/web/image/product.image/6413/image_1024/Celular%20Motorola%20Moto%C2%A0G23%20128GB?unique=f95febe'
+      ]
+    },
+     {
+      id: 6,
       nombre: 'Motorola Edge 40',
       descripcion: 'Pantalla pOLED, MediaTek Dimensity 8020, resistente al agua',
       precio: 699,
@@ -65,6 +77,30 @@ export const marcas = [
         'https://i.blogs.es/45176e/motorola-edge-40-1/450_1000.jpeg',
         'https://motorolacr.vtexassets.com/arquivos/ids/157685-800-auto?v=638842337246300000&width=800&height=auto&aspect=true',
         'https://chemesweb.com.ar/23855-medium_default/celular-motorola-edge-40-neo-negro.jpg'
+      ]
+    },
+     {
+      id: 7,
+      nombre: 'Iphone 16',
+      descripcion: 'Apple iPhone 16 (256 GB) - Ultramarino',
+      precio: 1199,
+      marcaId: 1,
+      fotos: [
+        'https://http2.mlstatic.com/D_NQ_NP_2X_975004-MLU78878972160_092024-F.webp',
+        'https://http2.mlstatic.com/D_NQ_NP_2X_753725-MLU79116570163_092024-F.webp',
+        'https://http2.mlstatic.com/D_NQ_NP_2X_927508-MLU79116776741_092024-F.webp'
+      ]
+    },
+    {
+      id: 8,
+      nombre: ' Xiaomi Poco C75',
+      descripcion: 'Celular Xiaomi Poco C75 128gb Rom 6gb Ram Black',
+      precio: 1000,
+      marcaId: 3,
+      fotos: [
+        'https://http2.mlstatic.com/D_NQ_NP_2X_714673-MLA84405345518_052025-F.webp',
+        'https://http2.mlstatic.com/D_NQ_NP_2X_986414-MLA84405239230_052025-F.webp',
+        'https://http2.mlstatic.com/D_NQ_NP_2X_926669-MLA84405054562_052025-F.webp'
       ]
     }
   ];
