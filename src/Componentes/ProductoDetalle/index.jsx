@@ -2,6 +2,7 @@ import { useParams, useNavigate } from 'react-router-dom';
 import { celulares } from '../../data';
 import './ProductoDetalle.css';
 
+//Esto lo buscamos en internet para saber como llegar a los detalles de cada producto especifico
 const ProductoDetalle = () => {
   const { id } = useParams();
   const navigate = useNavigate();
