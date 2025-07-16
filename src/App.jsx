@@ -9,7 +9,7 @@ import QuienesSomos from './Componentes/QuienesSomos';
 
 function App() {
   return (
-    <BrowserRouter>
+    <BrowserRouter basename="/TP-7---Celulares/">
       <Routes>
         <Route path="/" element={<LayoutPrincipal />}>
           <Route index element={<Home />} />
